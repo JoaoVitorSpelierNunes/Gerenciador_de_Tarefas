@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    width: 450px;
+    background: linear-gradient(0, #120c56, #000000);
+}
+
+.usuario-info {
+    display: flex;
+    gap: 5px;
+    width: 300px;
+    margin-left: 570px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 0.05px solid #ddd;
+    border-radius: 5px;
+}
+
+.usuario-info span {
+    display: block;
+    font-size: 16px;
+    color: #555;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #333;
+}
+
+.mensagem {
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.voltar-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8c94;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.voltar-link:hover {
+    background-color: #d75f68;
+}
